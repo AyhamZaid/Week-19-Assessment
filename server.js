@@ -25,7 +25,7 @@ app.post('/addNewTAsk', (req, res) => {
 
 // Q3: we have 6 errors here please fix them [6 pt]
 // app.get('/tasks', (req, res) --1,2
-app.put('/tasks/:id',(req,res)=> {
+app.put('/tasks/:id',(req,res) => {
   // let id = req.params; --3
   let id =req.params.id;
   // mongo.updateTask(ID, result =>--4
